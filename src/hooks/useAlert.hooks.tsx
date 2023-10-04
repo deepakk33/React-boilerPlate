@@ -1,12 +1,6 @@
-import { ToastContentProps } from 'react-toastify'
+import { ToastContentProps, ToastPosition } from 'react-toastify'
 import { STANDARD_TOAST_TIMEOUT } from '@wizard/utils/constants'
-import {
-  toast,
-  ToastPosition,
-  ToastBody,
-  Slide,
-  ToastCloseIcon,
-} from '@gaia-x-frontend/components-lib'
+import { ToastBody, toast, Slide } from '@wizard/stories'
 
 type AlertType = 'info' | 'error' | 'success' | 'warning'
 
@@ -27,7 +21,6 @@ const useAlert = (
       transition: Slide,
       pauseOnFocusLoss: isFocusLoss,
       className: 'Toastify__toast--main',
-      closeButton: ToastCloseIcon,
       hideProgressBar: true,
     }
   )

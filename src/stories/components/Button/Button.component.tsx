@@ -1,5 +1,4 @@
-import React from 'react'
-import './button.css'
+import './Button.module.scss'
 
 interface ButtonProps {
   /**

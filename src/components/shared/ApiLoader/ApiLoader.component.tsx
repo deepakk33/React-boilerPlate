@@ -6,7 +6,7 @@ const ApiLoader = ({ type = 'linear' }: LoaderProps) => {
     <div className={' apiLoader hidden'}>
       <div className={'absolute z-[9] w-[100%]'}>
         {/* <ProgressBar type={type} /> */}
-        <p>loading</p>
+        <p>{type}loading</p>
       </div>
     </div>
   )

@@ -1,9 +1,9 @@
 import Keycloak from 'keycloak-js'
 
 const keycloakCredentials = new Keycloak({
-  clientId: import.meta.env.VITE_WIZARD_KEYCLOAK_AUTH_CLIENT,
-  realm: import.meta.env.VITE_WIZARD_KEYCLOAK_AUTH_REALM,
-  url: import.meta.env.VITE_WIZARD_KEYCLOAK_AUTH_URI,
+  clientId: import.meta.env.VITE_KEYCLOAK_AUTH_CLIENT,
+  realm: import.meta.env.VITE_KEYCLOAK_AUTH_REALM,
+  url: import.meta.env.VITE_KEYCLOAK_AUTH_URI,
 })
 
 // Setting minimum token validity to 1 hour

@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
-import { RouterProvider } from 'react-router-dom'
+// import { RouterProvider } from 'react-router-dom'
 import { ErrorBoundary } from 'react-error-boundary'
-import { router } from './routes'
+// import { router } from './routes'
 import { ApiLoader } from './components'
 import 'react-toastify/dist/ReactToastify.css'
 
