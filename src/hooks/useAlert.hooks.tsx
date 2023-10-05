@@ -1,6 +1,6 @@
 import { ToastContentProps, ToastPosition } from 'react-toastify'
-import { STANDARD_TOAST_TIMEOUT } from '@wizard/utils/constants'
-import { ToastBody, toast, Slide } from '@wizard/stories'
+import { STANDARD_TOAST_TIMEOUT } from '@app/utils/constants'
+import { ToastBody, toast, Slide } from '@app/stories'
 
 type AlertType = 'info' | 'error' | 'success' | 'warning'
 

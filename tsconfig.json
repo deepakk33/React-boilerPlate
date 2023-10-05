@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@wizard/*": ["src/*"]
+      "@app/*": ["src/*"]
     }
   },
   "include": ["src"],

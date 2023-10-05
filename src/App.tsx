@@ -1,9 +1,9 @@
 import { Suspense } from 'react'
-// import { RouterProvider } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
 import { ErrorBoundary } from 'react-error-boundary'
-// import { router } from './routes'
 import { ApiLoader } from './components'
 import 'react-toastify/dist/ReactToastify.css'
+import { router } from './routes/routes.config'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           }
         >
           <ApiLoader />
-          {/* <RouterProvider router={router} /> */}
+          <RouterProvider router={router} />
         </ErrorBoundary>
       </Suspense>
     </>

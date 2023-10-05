@@ -9,7 +9,7 @@ export default defineConfig({
   preview: { port: 4000 },
   resolve: {
     alias: {
-      '@wizard': path.resolve(__dirname, './src'),
+      '@app': path.resolve(__dirname, './src'),
     },
   },
 })

@@ -1,7 +1,7 @@
 import { API_BASE_URL, HttpStatus, STORAGE } from './constants'
-import { ApiResponse, ErrorPayload } from '@wizard/models/api.model'
+import { ApiResponse, ErrorPayload } from '@app/models/api.model'
 import { getAlert } from '../hooks/useAlert.hooks'
-import { ROUTES_CONST } from '@wizard/routes/routes'
+import { ROUTES_CONST } from '@app/routes/routes'
 import {
   keycloakCredentials,
   updateTokenIfMinValidityReached,
@@ -409,9 +409,9 @@ export {
 //   updateTokenIfMinValidityReached,
 //   clearStorage,
 // } from './constants';
-// import { ApiResponse, ErrorPayload } from '@wizard/models/api.model';
+// import { ApiResponse, ErrorPayload } from '@app/models/api.model';
 // import { getAlert } from '../hooks/useAlert.hooks';
-// import { ROUTES_CONST } from '@wizard/routes/routes';
+// import { ROUTES_CONST } from '@app/routes/routes';
 // import {
 //   keyExistsInLocalStorage,
 //   getActualResponseFromAxiosRequest,
