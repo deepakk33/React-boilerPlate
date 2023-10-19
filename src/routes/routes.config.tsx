@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { ROUTES_CONST } from './routes'
 import { ApiLoader } from '@app/components'
-import { PrivateContainerPage } from '@app/pages'
+import { PrivateContainerPage, Public } from '@app/pages'
 
 const ROUTES = [
   {
@@ -10,7 +10,7 @@ const ROUTES = [
       //   <NoAuthRoute>
       //     <AuthenticationPageLazy />
       //   </NoAuthRoute>
-      <>hi</>
+      <Public />
     ),
     loading: <ApiLoader type="linear" />,
     // errorElement: <ErrorPage />,

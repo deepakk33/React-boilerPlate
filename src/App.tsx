@@ -20,6 +20,7 @@ function App() {
           }
         >
           <ApiLoader />
+
           <RouterProvider router={router} />
         </ErrorBoundary>
       </Suspense>

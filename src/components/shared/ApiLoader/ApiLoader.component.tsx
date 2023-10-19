@@ -1,4 +1,3 @@
-// import { ProgressBar } from '@gaia-x-frontend/components-lib'
 import { LoaderProps } from '@app/models/comman.model'
 
 const ApiLoader = ({ type = 'linear' }: LoaderProps) => {
