@@ -44,9 +44,7 @@ axiosInstance.interceptors.request.use(async (config) => {
 })
 
 axiosInstance.interceptors.response.use(
-  (response) => {
-    if (response.data) return response.data
-  },
+  (response) => response.data,
   (error) => {
     if (
       error &&
@@ -71,12 +69,6 @@ axiosInstance.interceptors.response.use(
     return Promise.reject(JSON.parse(getActualResponseFromAxiosRequest(error)))
   }
 )
-// endpoint: string,
-//   data: any = {},
-//   customHeaders: RawAxiosRequestHeaders = {},
-//   showLoader = true,
-//   showSuccessAlert = true
-// ) => {
 
 const axiosRequest = async (config: {
   method: Method | string
@@ -315,9 +307,7 @@ const patch = async (
   })
 }
 
-const getAxiosInstance = () => {
-  return axiosInstance
-}
+const getAxiosInstance = () => axiosInstance
 
 export {
   deleteAPI,
