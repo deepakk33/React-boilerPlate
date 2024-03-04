@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. Node with version >= v20.18.2
+1. Node with version >= v20.0.0
 2. Yarn (Package Manager) >=1.22
 
 ## Project Setup for Devops
