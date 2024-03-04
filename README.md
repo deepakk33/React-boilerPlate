@@ -289,6 +289,6 @@ When we want to resolve any bugs, we want to follow below mentioned steps.
     ```
     git checkout -b Bug/<JIRA_BUG_KEY>
     ```
-4. Resolve bug..
+4. Resolve bug.
 5. Do PR from Bug Branch to QA branch.
 6. Do PR from Bug Branch to Development branch.
